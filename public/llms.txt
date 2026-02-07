@@ -1,0 +1,85 @@
+# Liquor Spot — Generative Engine Optimization Map
+
+> A קמעונאות משקאות אלכוהוליים business.
+
+---
+
+## Pages
+
+### Home
+https://liquor-spot-16fdd83c.zappy5.app
+
+### About
+https://liquor-spot-16fdd83c.zappy5.app/about
+
+### Selection
+https://liquor-spot-16fdd83c.zappy5.app/selection
+
+### Contact
+https://liquor-spot-16fdd83c.zappy5.app/contact
+
+### Products
+https://liquor-spot-16fdd83c.zappy5.app/products
+המוצרים שלנו - Liquor Spot
+
+### Cart
+https://liquor-spot-16fdd83c.zappy5.app/cart
+עגלת הקניות שלך
+
+### Checkout
+https://liquor-spot-16fdd83c.zappy5.app/checkout
+תשלום
+
+### Login
+https://liquor-spot-16fdd83c.zappy5.app/login
+התחברות לקוחות
+
+### Account
+https://liquor-spot-16fdd83c.zappy5.app/account
+החשבון שלי
+
+### Order Success
+https://liquor-spot-16fdd83c.zappy5.app/order-success
+תודה על ההזמנה
+
+### Product Detail
+https://liquor-spot-16fdd83c.zappy5.app/product/:slug
+פרטי המוצר - Liquor Spot
+
+### Category
+https://liquor-spot-16fdd83c.zappy5.app/category/:slug
+מוצרים - Liquor Spot
+
+## Legal & Policy
+
+### Privacy Policy
+https://liquor-spot-16fdd83c.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://liquor-spot-16fdd83c.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://liquor-spot-16fdd83c.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Liquor Spot
+Liquor Spot is a business in the קמעונאות משקאות אלכוהוליים industry.
+
+## Target Audience
+צרכנים שרוצים לקנות משקאות אלכוהוליים
+
+## Industry
+קמעונאות משקאות אלכוהוליים
+
+---
+
+# Additional Resources
+
+- **Sitemap**: https://liquor-spot-16fdd83c.zappy5.app/sitemap.xml
+- **Robots.txt**: https://liquor-spot-16fdd83c.zappy5.app/robots.txt
