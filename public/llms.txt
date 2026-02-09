@@ -1,85 +1,75 @@
-# Liquor Spot — Generative Engine Optimization Map
-
-> A קמעונאות משקאות אלכוהוליים business.
+# Business — Generative Engine Optimization Map
 
 ---
 
 ## Pages
 
 ### Home
-https://liquor-spot-16fdd83c.zappy5.app
+https://example.com
 
 ### About
-https://liquor-spot-16fdd83c.zappy5.app/about
+https://example.com/about
 
 ### Selection
-https://liquor-spot-16fdd83c.zappy5.app/selection
+https://example.com/selection
 
 ### Contact
-https://liquor-spot-16fdd83c.zappy5.app/contact
+https://example.com/contact
 
 ### Products
-https://liquor-spot-16fdd83c.zappy5.app/products
+https://example.com/products
 המוצרים שלנו - Liquor Spot
 
 ### Cart
-https://liquor-spot-16fdd83c.zappy5.app/cart
+https://example.com/cart
 עגלת הקניות שלך
 
 ### Checkout
-https://liquor-spot-16fdd83c.zappy5.app/checkout
+https://example.com/checkout
 תשלום
 
 ### Login
-https://liquor-spot-16fdd83c.zappy5.app/login
+https://example.com/login
 התחברות לקוחות
 
 ### Account
-https://liquor-spot-16fdd83c.zappy5.app/account
+https://example.com/account
 החשבון שלי
 
 ### Order Success
-https://liquor-spot-16fdd83c.zappy5.app/order-success
+https://example.com/order-success
 תודה על ההזמנה
 
 ### Product Detail
-https://liquor-spot-16fdd83c.zappy5.app/product/:slug
+https://example.com/product/:slug
 פרטי המוצר - Liquor Spot
 
 ### Category
-https://liquor-spot-16fdd83c.zappy5.app/category/:slug
+https://example.com/category/:slug
 מוצרים - Liquor Spot
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://liquor-spot-16fdd83c.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://liquor-spot-16fdd83c.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://liquor-spot-16fdd83c.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Liquor Spot
-Liquor Spot is a business in the קמעונאות משקאות אלכוהוליים industry.
-
-## Target Audience
-צרכנים שרוצים לקנות משקאות אלכוהוליים
-
-## Industry
-קמעונאות משקאות אלכוהוליים
-
+## About Business
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://liquor-spot-16fdd83c.zappy5.app/sitemap.xml
-- **Robots.txt**: https://liquor-spot-16fdd83c.zappy5.app/robots.txt
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt

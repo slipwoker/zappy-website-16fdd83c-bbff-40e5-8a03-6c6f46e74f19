@@ -73,10 +73,1265 @@
   opacity: 0.7;
 }</style>
     <!-- Cookie Consent -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css">
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.home-Hero-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: #111;
+  overflow: visible;
+  padding-bottom: 80px;
+}
+
+.home-Hero-section > img[data-placeholder="home-Hero-bg"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 0;
+}
+
+.home-Hero-section__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.20) 45%, rgba(0,0,0,0) 70%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.home-Hero-section__overlay::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.03) 2px, rgba(0,0,0,0.03) 4px),
+    repeating-linear-gradient(90deg, transparent, transparent 2px, rgba(0,0,0,0.03) 2px, rgba(0,0,0,0.03) 4px);
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.home-Hero-section__content-wrapper {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.home-Hero-section__content {
+  max-width: 620px;
+  margin-inline-start: 0;
+  padding: 48px 56px;
+  background: rgba(0,0,0,0.18);
+  backdrop-filter: blur(2px);
+  border-radius: 0px;
+  color: var(--text-light);
+}
+
+.home-Hero-section__content h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 56px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.03;
+  color: #F7F2E8;
+  text-shadow: 0 3px 14px rgba(0,0,0,0.55);
+  margin: 0 0 24px 0;
+  text-align: start;
+}
+
+.home-Hero-section__content h3 {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: rgba(247,242,232,0.88);
+  margin: 0 0 36px 0;
+  text-align: start;
+}
+
+.home-Hero-section__cta-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+}
+
+.home-Hero-section__btn-primary {
+  display: inline-block;
+  background: #C21F1A;
+  color: #FFFFFF;
+  padding: 14px 28px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.22);
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  box-shadow: 0 10px 18px rgba(0,0,0,0.25);
+  transition: transform 220ms ease, box-shadow 220ms ease, background-color 220ms ease;
+}
+
+.home-Hero-section__btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 24px rgba(0,0,0,0.32);
+  background: #A91512;
+}
+
+.home-Hero-section__btn-secondary {
+  display: inline-block;
+  background: rgba(0,0,0,0.18);
+  color: #F7F2E8;
+  padding: 14px 28px;
+  border-radius: 999px;
+  border: 1px solid rgba(247,242,232,0.35);
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  backdrop-filter: blur(2px);
+  transition: transform 220ms ease, background-color 220ms ease, border-color 220ms ease;
+}
+
+.home-Hero-section__btn-secondary:hover {
+  transform: translateY(-2px);
+  background: rgba(0,0,0,0.32);
+  border-color: rgba(247,242,232,0.55);
+}
+
+.home-Hero-section__decorative-label {
+  position: absolute;
+  z-index: 2;
+  pointer-events: none;
+  opacity: 0.85;
+}
+
+.home-Hero-section__decorative-label img {
+  display: block;
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(0 10px 18px rgba(0,0,0,0.28));
+}
+
+.home-Hero-section__decorative-label--1 {
+  top: 12%;
+  right: 8%;
+  width: 280px;
+  transform: rotate(-8deg);
+}
+
+.home-Hero-section__decorative-label--2 {
+  bottom: 18%;
+  right: 15%;
+  width: 240px;
+  transform: rotate(12deg);
+}
+
+.home-Hero-section__divider-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.home-Hero-section__divider-wrapper svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .home-Hero-section {
+    min-height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 60px;
+  }
+  
+  .home-Hero-section__content-wrapper {
+    padding: 0 16px;
+  }
+  
+  .home-Hero-section__content {
+    max-width: 100%;
+    padding: 32px 24px;
+    margin-inline-start: 0;
+  }
+  
+  .home-Hero-section__content h1 {
+    font-size: 36px;
+    line-height: 1.1;
+    margin-bottom: 16px;
+  }
+  
+  .home-Hero-section__content h3 {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 28px;
+  }
+  
+  .home-Hero-section__cta-group {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+  
+  .home-Hero-section__btn-primary,
+  .home-Hero-section__btn-secondary {
+    text-align: center;
+    padding: 12px 24px;
+    font-size: 14px;
+  }
+  
+  .home-Hero-section__decorative-label--1 {
+    top: 8%;
+    right: 4%;
+    width: 180px;
+    transform: rotate(-6deg);
+  }
+  
+  .home-Hero-section__decorative-label--2 {
+    bottom: 12%;
+    right: 6%;
+    width: 160px;
+    transform: rotate(8deg);
+  }
+  
+  .home-Hero-section__divider-wrapper {
+    height: 60px;
+  }
+}
+</style>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.home-Hero-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: #111;
+  overflow: visible;
+  padding-bottom: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.home-Hero-section .home-Hero-bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.home-Hero-section .home-Hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(0,0,0,0.62) 0%, rgba(0,0,0,0.25) 45%, rgba(0,0,0,0) 70%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.home-Hero-section .home-Hero-content-wrapper {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.home-Hero-section .home-Hero-content {
+  max-width: 620px;
+  margin-inline-start: 0;
+}
+
+.home-Hero-section .home-Hero-h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 56px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.03;
+  color: #F7F2E8;
+  text-shadow: 0 3px 14px rgba(0,0,0,0.55);
+  margin: 0 0 20px 0;
+  text-align: start;
+}
+
+.home-Hero-section .home-Hero-h3 {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(247,242,232,0.88);
+  margin: 0 0 32px 0;
+  text-align: start;
+}
+
+.home-Hero-section .home-Hero-cta-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+}
+
+.home-Hero-section .home-Hero-btn-primary {
+  background: #C21F1A;
+  color: #FFFFFF;
+  padding: 14px 28px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.22);
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0 10px 18px rgba(0,0,0,0.25);
+  transition: transform 220ms ease, box-shadow 220ms ease, background-color 220ms ease;
+}
+
+.home-Hero-section .home-Hero-btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 24px rgba(0,0,0,0.30);
+  background: #A91512;
+}
+
+.home-Hero-section .home-Hero-btn-secondary {
+  background: rgba(0,0,0,0.18);
+  color: #F7F2E8;
+  padding: 14px 28px;
+  border-radius: 999px;
+  border: 1px solid rgba(247,242,232,0.35);
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  display: inline-block;
+  backdrop-filter: blur(2px);
+  transition: transform 220ms ease, background-color 220ms ease, border-color 220ms ease;
+}
+
+.home-Hero-section .home-Hero-btn-secondary:hover {
+  transform: translateY(-2px);
+  background: rgba(0,0,0,0.28);
+  border-color: rgba(247,242,232,0.50);
+}
+
+.home-Hero-section .home-Hero-decorative-cutout {
+  position: absolute;
+  z-index: 2;
+  pointer-events: none;
+  filter: drop-shadow(0 10px 18px rgba(0,0,0,0.28));
+}
+
+.home-Hero-section .home-Hero-decorative-cutout-1 {
+  top: 15%;
+  right: 12%;
+  width: 280px;
+  height: 320px;
+  transform: rotate(-8deg);
+}
+
+.home-Hero-section .home-Hero-decorative-cutout-2 {
+  bottom: 22%;
+  right: 8%;
+  width: 240px;
+  height: 280px;
+  transform: rotate(6deg);
+}
+
+.home-Hero-section .home-Hero-label-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+.home-Hero-section .home-Hero-divider-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.home-Hero-section .home-Hero-divider-wrapper svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .home-Hero-section {
+    min-height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    align-items: flex-start;
+  }
+  
+  .home-Hero-section .home-Hero-content-wrapper {
+    padding: 0 20px;
+    margin-top: 40px;
+  }
+  
+  .home-Hero-section .home-Hero-content {
+    max-width: 100%;
+  }
+  
+  .home-Hero-section .home-Hero-h1 {
+    font-size: 36px;
+    line-height: 1.1;
+    margin-bottom: 16px;
+  }
+  
+  .home-Hero-section .home-Hero-h3 {
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+  
+  .home-Hero-section .home-Hero-cta-group {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+  
+  .home-Hero-section .home-Hero-btn-primary,
+  .home-Hero-section .home-Hero-btn-secondary {
+    width: 100%;
+    text-align: center;
+    padding: 12px 24px;
+  }
+  
+  .home-Hero-section .home-Hero-decorative-cutout-1 {
+    width: 160px;
+    height: 180px;
+    top: auto;
+    bottom: 180px;
+    right: 20px;
+    transform: rotate(-6deg);
+  }
+  
+  .home-Hero-section .home-Hero-decorative-cutout-2 {
+    width: 140px;
+    height: 160px;
+    bottom: 120px;
+    right: 10px;
+    transform: rotate(4deg);
+  }
+}
+</style>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.home-Hero-section {
+  position: relative;
+  background: #111;
+  min-height: 75vh;
+  display: flex;
+  align-items: center;
+  overflow: visible;
+  padding-bottom: 80px;
+}
+
+.home-Hero-section__background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  filter: contrast(1.05) saturate(0.95);
+}
+
+.home-Hero-section__background-image::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('data:image/svg+xml,%3Csvg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"%3E%3Cfilter id="noiseFilter"%3E%3CfeTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch"/%3E%3C/filter%3E%3Crect width="100%25" height="100%25" filter="url(%23noiseFilter)" opacity="0.08"/%3E%3C/svg%3E');
+  pointer-events: none;
+}
+
+.home-Hero-section__overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(270deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.75) 35%, rgba(0,0,0,0.85) 55%, rgba(0,0,0,0.20) 100%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.home-Hero-section__container {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 72px;
+}
+
+.home-Hero-section__grid {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  gap: 48px;
+  align-items: center;
+}
+
+.home-Hero-section__text-column {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  text-align: start;
+  padding-inline-end: 24px;
+}
+
+.home-Hero-section__headline {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 56px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.03;
+  color: var(--text-light);
+  text-shadow: 0 3px 14px rgba(0,0,0,0.55);
+  margin: 0;
+}
+
+.home-Hero-section__subheadline {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.15;
+  color: var(--text-light);
+  opacity: 0.92;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.45);
+  margin: 0;
+}
+
+.home-Hero-section__cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 6px;
+}
+
+.home-Hero-section__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  border-radius: 999px;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  transition: transform 220ms ease, box-shadow 220ms ease, background-color 220ms ease, border-color 220ms ease;
+  cursor: pointer;
+}
+
+.home-Hero-section__btn--primary {
+  background: var(--primary);
+  color: var(--text-light);
+  border: 1px solid rgba(255,255,255,0.22);
+  box-shadow: 0 10px 18px rgba(0,0,0,0.25);
+}
+
+.home-Hero-section__btn--primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 24px rgba(0,0,0,0.32);
+}
+
+.home-Hero-section__btn--secondary {
+  background: rgba(0,0,0,0.18);
+  color: var(--text-light);
+  border: 1px solid rgba(247,242,232,0.35);
+  backdrop-filter: blur(2px);
+}
+
+.home-Hero-section__btn--secondary:hover {
+  background: rgba(0,0,0,0.28);
+  border-color: rgba(247,242,232,0.48);
+  transform: translateY(-2px);
+}
+
+.home-Hero-section__image-column {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-Hero-section__image-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 0;
+  overflow: hidden;
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,0.25), 0 26px 60px rgba(0,0,0,0.35);
+}
+
+.home-Hero-section__hero-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  filter: contrast(1.08) saturate(1.05);
+}
+
+.home-Hero-section__hero-image::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('data:image/svg+xml,%3Csvg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"%3E%3Cfilter id="halftone"%3E%3CfeTurbulence type="fractalNoise" baseFrequency="1.2" numOctaves="2"/%3E%3C/filter%3E%3Crect width="100%25" height="100%25" filter="url(%23halftone)" opacity="0.06"/%3E%3C/svg%3E');
+  pointer-events: none;
+}
+
+.home-Hero-section__divider-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.home-Hero-section__divider-wrapper svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1024px) {
+  .home-Hero-section__container {
+    padding: 0 48px;
+  }
+  
+  .home-Hero-section__grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+  
+  .home-Hero-section__headline {
+    font-size: 44px;
+  }
+  
+  .home-Hero-section__subheadline {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-Hero-section {
+    min-height: auto;
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+  
+  .home-Hero-section__container {
+    padding: 0 20px;
+  }
+  
+  .home-Hero-section__grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  
+  .home-Hero-section__text-column {
+    gap: 20px;
+    padding-inline-end: 0;
+    order: 1;
+  }
+  
+  .home-Hero-section__image-column {
+    order: 2;
+  }
+  
+  .home-Hero-section__headline {
+    font-size: 36px;
+    line-height: 1.08;
+  }
+  
+  .home-Hero-section__subheadline {
+    font-size: 17px;
+    line-height: 1.3;
+  }
+  
+  .home-Hero-section__cta-row {
+    gap: 12px;
+    margin-top: 4px;
+  }
+  
+  .home-Hero-section__btn {
+    padding: 11px 20px;
+    font-size: 13px;
+    flex: 1 1 auto;
+    min-width: 140px;
+  }
+  
+  .home-Hero-section__image-wrapper {
+    max-width: 100%;
+  }
+  
+  .home-Hero-section__divider-wrapper {
+    height: 60px;
+  }
+  
+  .home-Hero-section {
+    padding-bottom: 60px;
+  }
+}
+</style>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.home-Hero-section {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  min-height: 600px;
+  overflow: visible;
+  background: #111;
+  padding-bottom: 80px;
+}
+
+.home-Hero-section__bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: 0;
+  filter: contrast(1.05) brightness(0.92);
+}
+
+.home-Hero-section__scrim {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.85) 25%, rgba(0,0,0,0.75) 40%, rgba(0,0,0,0.25) 70%, rgba(0,0,0,0) 100%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.home-Hero-section__content-wrapper {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 40px 96px;
+}
+
+.home-Hero-section__glass-card {
+  position: relative;
+  max-width: 520px;
+  width: 100%;
+  background: rgba(11, 27, 43, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(234, 242, 255, 0.15);
+  border-radius: 4px;
+  padding: 48px 40px;
+  box-shadow: 0 26px 60px rgba(0,0,0,0.35);
+}
+
+.home-Hero-section__headline {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 56px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.03;
+  color: var(--text-light);
+  text-shadow: 0 3px 14px rgba(0,0,0,0.55);
+  margin: 0 0 28px 0;
+  text-align: start;
+}
+
+.home-Hero-section__subheadline {
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.55;
+  color: rgba(234, 242, 255, 0.88);
+  margin: 0 0 32px 0;
+  text-align: start;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.35);
+}
+
+.home-Hero-section__cta-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: center;
+}
+
+.home-Hero-section__btn {
+  display: inline-block;
+  padding: 14px 28px;
+  border-radius: 999px;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  transition: transform 220ms ease, box-shadow 220ms ease, background-color 220ms ease, border-color 220ms ease;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.home-Hero-section__btn--primary {
+  background: var(--primary);
+  color: var(--text-light);
+  border: 1px solid rgba(255,255,255,0.22);
+  box-shadow: 0 10px 18px rgba(0,0,0,0.25);
+}
+
+.home-Hero-section__btn--primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 24px rgba(0,0,0,0.32);
+  background: #ff6080;
+}
+
+.home-Hero-section__btn--secondary {
+  background: rgba(0,0,0,0.25);
+  color: var(--text-light);
+  border: 1px solid rgba(234, 242, 255, 0.35);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.home-Hero-section__btn--secondary:hover {
+  transform: translateY(-2px);
+  background: rgba(0,0,0,0.35);
+  border-color: rgba(234, 242, 255, 0.45);
+}
+
+.home-Hero-section__divider-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.home-Hero-section__divider-wrapper svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1024px) {
+  .home-Hero-section__content-wrapper {
+    padding: 40px 64px;
+  }
+  
+  .home-Hero-section__glass-card {
+    max-width: 480px;
+    padding: 40px 32px;
+  }
+  
+  .home-Hero-section__headline {
+    font-size: 48px;
+  }
+  
+  .home-Hero-section__subheadline {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-Hero-section {
+    min-height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 60px;
+  }
+  
+  .home-Hero-section__content-wrapper {
+    padding: 20px 20px 40px 20px;
+    align-items: flex-start;
+    padding-top: 80px;
+  }
+  
+  .home-Hero-section__glass-card {
+    max-width: 100%;
+    padding: 32px 24px;
+  }
+  
+  .home-Hero-section__headline {
+    font-size: 36px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+  }
+  
+  .home-Hero-section__subheadline {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+  }
+  
+  .home-Hero-section__cta-group {
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+  }
+  
+  .home-Hero-section__btn {
+    width: 100%;
+    text-align: center;
+    padding: 14px 24px;
+  }
+  
+  .home-Hero-section__divider-wrapper {
+    height: 60px;
+  }
+  
+  .home-Hero-section__scrim {
+    background: linear-gradient(180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.75) 30%, rgba(0,0,0,0.65) 100%);
+  }
+}
+</style>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.home-cta-section {
+  position: relative;
+  background: var(--bg-dark);
+  color: var(--text-light);
+  padding: 120px 24px;
+  overflow: visible;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-cta-section__background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.home-cta-section__background-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.15;
+  filter: grayscale(20%);
+}
+
+.home-cta-section__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(11, 27, 43, 0.85) 0%, rgba(11, 27, 43, 0.95) 100%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.home-cta-section__container {
+  position: relative;
+  z-index: 10;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.home-cta-section__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.home-cta-section__title {
+  font-family: 'Fraunces', 'Playfair Display', serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--text-light);
+  margin: 0;
+  letter-spacing: -0.02em;
+}
+
+.home-cta-section__description {
+  font-family: 'Inter', 'Source Sans 3', sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: var(--text-light);
+  margin: 0;
+  max-width: 600px;
+  opacity: 0.92;
+}
+
+.home-cta-section__cta-button {
+  display: inline-block;
+  background: var(--primary);
+  color: var(--text-light);
+  padding: 16px 40px;
+  border-radius: 999px;
+  font-family: 'Inter', 'Source Sans 3', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 12px 24px rgba(255, 77, 109, 0.25);
+  border: 2px solid transparent;
+  margin-top: 8px;
+}
+
+.home-cta-section__cta-button:hover {
+  background: #FF6B85;
+  box-shadow: 0 16px 32px rgba(255, 77, 109, 0.35);
+  transform: translateY(-2px);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.home-cta-section__cta-button:active {
+  transform: translateY(0);
+  box-shadow: 0 8px 16px rgba(255, 77, 109, 0.3);
+}
+
+@media (max-width: 768px) {
+  .home-cta-section {
+    padding: 80px 16px;
+    min-height: 400px;
+  }
+
+  .home-cta-section__title {
+    font-size: 1.875rem;
+  }
+
+  .home-cta-section__description {
+    font-size: 1rem;
+  }
+
+  .home-cta-section__cta-button {
+    padding: 14px 32px;
+    font-size: 0.9375rem;
+  }
+
+  .home-cta-section__content {
+    gap: 20px;
+  }
+}
+</style>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.home-reviews-section {
+  position: relative;
+  background: var(--bg-light);
+  color: var(--text-dark);
+  padding: 80px 24px 140px;
+  overflow: visible;
+}
+
+.home-reviews-section .home-reviews-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.home-reviews-section .home-reviews-intro {
+  margin-bottom: 60px;
+  max-width: 720px;
+}
+
+.home-reviews-section .home-reviews-intro h2 {
+  font-family: 'Fraunces', 'Playfair Display', Georgia, serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: 0.01em;
+  color: var(--text-dark);
+  margin-bottom: 20px;
+  text-align: start;
+}
+
+.home-reviews-section .home-reviews-intro p {
+  font-family: 'Inter', 'Source Sans 3', system-ui, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--text-dark);
+  text-align: start;
+}
+
+.home-reviews-section .home-reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.home-reviews-section .home-reviews-card {
+  background: rgba(255, 255, 255, 0.65);
+  border: 1px solid var(--border-light);
+  border-radius: 0px;
+  padding: 32px 28px;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.home-reviews-section .home-reviews-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 34px rgba(0, 0, 0, 0.12);
+}
+
+.home-reviews-section .home-reviews-card h3 {
+  font-family: 'Fraunces', 'Playfair Display', Georgia, serif;
+  font-size: 1.375rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--text-dark);
+  margin-bottom: 16px;
+  text-align: start;
+}
+
+.home-reviews-section .home-reviews-card p {
+  font-family: 'Inter', 'Source Sans 3', system-ui, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--text-muted);
+  text-align: start;
+}
+
+.home-reviews-section .home-reviews-texture-strip {
+  position: absolute;
+  top: 50%;
+  left: auto;
+  right: 0;
+  width: 40px;
+  height: 60%;
+  transform: translateY(-50%);
+  background: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 4px,
+    rgba(227, 215, 199, 0.3) 4px,
+    rgba(227, 215, 199, 0.3) 8px
+  );
+  border-left: 1px solid var(--border-light);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.home-reviews-section .home-reviews-divider-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.home-reviews-section .home-reviews-divider-wrapper svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .home-reviews-section {
+    padding: 100px 16px 140px;
+  }
+
+  .home-reviews-section .home-reviews-intro {
+    margin-bottom: 40px;
+  }
+
+  .home-reviews-section .home-reviews-intro h2 {
+    font-size: 2rem;
+  }
+
+  .home-reviews-section .home-reviews-intro p {
+    font-size: 0.9375rem;
+  }
+
+  .home-reviews-section .home-reviews-grid {
+    grid-template-columns: 1fr !important;
+    gap: 24px;
+  }
+
+  .home-reviews-section .home-reviews-card {
+    padding: 24px 20px;
+  }
+
+  .home-reviews-section .home-reviews-card h3 {
+    font-size: 1.25rem;
+  }
+
+  .home-reviews-section .home-reviews-texture-strip {
+    display: none;
+  }
+
+  .home-reviews-section .home-reviews-divider-wrapper {
+    height: 80px;
+  }
+}
+</style>
 <!-- Zappy Analytics -->
 <script>
 (function() {
@@ -321,6 +1576,31 @@
       }
       @media (min-width: 769px) { .mobile-submenu-toggle { display: none !important; } }
     </style>
+
+    <style id="mobile-lang-menu-deployed-css">
+    @media (max-width: 768px) {
+      .lang-switcher,
+      .nav-cta-container .lang-switcher,
+      .nav-container .lang-switcher,
+      .navbar .lang-switcher,
+      .navbar .nav-cta-container .lang-switcher,
+      .nav-icons-left .lang-switcher,
+      .nav-ecommerce-icons .lang-switcher { display: none !important; }
+      .mobile-lang-menu { width: 100%; border-top: 1px solid rgba(128,128,128,0.2); padding: 8px 0 0 0; margin-top: 8px; }
+      .mobile-lang-toggle { display: flex !important; align-items: center; justify-content: space-between; width: 100%; padding: 12px 16px; background: none; border: none; cursor: pointer; font-size: 15px; color: inherit; font-family: inherit; }
+      .mobile-lang-toggle::after { content: ''; display: inline-block; width: 8px; height: 8px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(45deg); transition: transform 0.3s ease; margin-left: 8px; }
+      .mobile-lang-toggle.expanded::after { transform: rotate(-135deg); }
+      .mobile-lang-options { max-height: 0; overflow: hidden; transition: max-height 0.3s ease; }
+      .mobile-lang-options.expanded { max-height: 300px; }
+      .mobile-lang-option { display: flex !important; align-items: center; gap: 10px; padding: 10px 24px; text-decoration: none; color: inherit; font-size: 14px; font-family: inherit; }
+      .mobile-lang-option:hover { background: rgba(128,128,128,0.1); }
+      .mobile-lang-option.active { font-weight: 600; opacity: 0.7; pointer-events: none; }
+      .mobile-lang-option img { width: 20px; height: 20px; border-radius: 50%; }
+    }
+    @media (min-width: 769px) {
+      .mobile-lang-menu { display: none !important; }
+    }
+    </style>
 </head>
 <body>
 
@@ -333,10 +1613,10 @@
       <div class="search-wrapper">
         <input type="text" id="mobile-search-input" placeholder="חיפוש מוצרים..." autocomplete="off">
         <button class="search-submit" id="mobile-search-submit" title="חיפוש">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
         </button>
         <button class="close-search" id="close-mobile-search">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"></path></svg>
         </button>
       </div>
       <div class="search-results" id="mobile-search-results"></div>
@@ -362,7 +1642,7 @@
   <div class="nav-container">
     <div class="nav-right-group"><div class="nav-brand">
       <a href="/" class="logo-link">
-        <img src="/assets/business-logo.webp" alt="Liquor Spot" class="logo" />
+        <img src="/assets/business-logo.webp" alt="Liquor Spot" class="logo">
       </a>
     </div><ul class="nav-menu" id="navMenu">
 
@@ -378,13 +1658,13 @@
         <!-- Categories will be loaded dynamically -->
       </ul>
     </li>
-  <li><a href="/about">אודות</a></li><li><a href="/selection">מבחר</a></li><li><a href="/contact">צור קשר</a></li></ul><div class="nav-ecommerce-icons nav-icons-left"><a href="/login" class="login-link nav-login" title="התחברות"><svg class="login-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></a><a href="#cart" class="cart-link nav-cart" id="cart-drawer-toggle" title="עגלת קניות"><svg class="cart-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg><span class="cart-count">0</span></a><div class="nav-search-box">
+  <li><a href="/about">אודות</a></li><li><a href="/selection">מבחר</a></li><li><a href="/contact">צור קשר</a></li></ul><div class="nav-ecommerce-icons nav-icons-left"><a href="/login" class="login-link nav-login" title="התחברות"><svg class="login-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></a><a href="#cart" class="cart-link nav-cart" id="cart-drawer-toggle" title="עגלת קניות"><svg class="cart-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg><span class="cart-count">0</span></a><div class="nav-search-box">
     <input type="text" class="nav-search-input" id="nav-search-input" placeholder="חיפוש מוצרים..." autocomplete="off">
     <button class="nav-search-btn" id="nav-search-btn" title="חיפוש">
-      <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+      <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
     </button>
     <div class="nav-search-results" id="nav-search-results"></div>
-  </div></div><div class="nav-ecommerce-icons nav-icons-right"><button class="nav-search-toggle" id="mobile-search-toggle" title="חיפוש"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg></button></div></div>
+  </div></div><div class="nav-ecommerce-icons nav-icons-right"><button class="nav-search-toggle" id="mobile-search-toggle" title="חיפוש"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg></button></div></div>
     
     
     
@@ -801,34 +2081,25 @@
 
   
   <main>
-    <section class="home-hero-section" data-layout-spec="Home-Hero">
-  <!-- Full-bleed background image -->
-  <img data-placeholder="home-hero-bg" data-context="Editorial tabletop composition for premium liquor retail: 2-3 high-end liquor bottles (whiskey, wine, spirits) partially visible on a textured wooden surface with warm lighting, macro detail of vintage label fragments showing gold foil and embossed text, layered paper texture with torn edges, sophisticated depth of field, rich amber and deep burgundy tones, professional product photography style for Liquor Spot alcohol retail" width="1920" height="1080" src="/assets/site-home-hero-bg.webp" alt="תצוגת בקבוקי משקאות פרימיום על משטח עץ" class="home-hero-bg-image">
+    <section class="home-Hero-section" data-layout-spec="Home-Hero" data-hero-type="fullscreen-card">
+  <img data-context="Editorial tabletop scene for premium liquor retail: 2-3 premium liquor bottles (whiskey, wine, cognac) partially visible on dark wooden surface with subtle paper texture and vintage label details, bottles positioned toward right side of frame, warm ambient lighting creating highlights on glass and labels, sophisticated depth of field with film grain texture, professional product photography style for alcohol retail" width="1920" height="1080" src="/assets/liquor-spot-section-Home-Hero-home-Hero-background.webp" alt="תצוגת בקבוקי משקאות פרמיום על משטח עץ" class="home-Hero-section__bg-image" data-zappy-editable-image="true">
   
-  <!-- Gradient scrim overlay for text legibility -->
-  <div class="home-hero-scrim" aria-hidden="true"></div>
+  <div class="home-Hero-section__scrim"></div>
   
-  <!-- Main content overlay group (START side) -->
-  <div class="home-hero-overlay-group">
-    <h1>גלה אוסף משקאות<br>אלכוהוליים מעולה</h1>
-    <h3>תוויות נבחרות, מציאות מקומיות וקלאסיקות פרימיום במקום אחד</h3>
-    
-    <div class="home-hero-cta-row">
-      <a href="#contact" class="btn-primary">צור קשר</a>
-      <a href="#selection" class="btn-secondary">המבחר שלנו</a>
+  <div class="home-Hero-section__content-wrapper">
+    <div class="home-Hero-section__glass-card">
+      <h1 class="home-Hero-section__headline">גלה את עולם המשקאות המשובחים</h1>
+      <h3 class="home-Hero-section__subheadline">מבחר קפדני של תוויות נדירות, ממצאים מקומיים וקלאסיקות פרמיום במקום אחד</h3>
+      <div class="home-Hero-section__cta-group">
+        <a href="#contact" class="home-Hero-section__btn home-Hero-section__btn--primary">צור קשר</a>
+        <a href="#selection" class="home-Hero-section__btn home-Hero-section__btn--secondary">גלה את המבחר</a>
+      </div>
     </div>
   </div>
   
-  <!-- Decorative label cutout 1 (START-bottom area) -->
-  <img data-placeholder="home-hero-cutout-1" data-context="Vintage liquor bottle label cutout PNG style for Liquor Spot: elegant whiskey or wine label with ornate gold borders, embossed typography, classic serif fonts, aged paper texture, rich burgundy and gold color scheme, isolated on transparent background, premium alcohol branding aesthetic, high detail macro photography" width="280" height="380" src="/assets/site-home-hero-cutout-1.webp" alt="תווית בקבוק וינטג׳" class="home-hero-cutout home-hero-cutout-1">
-  
-  <!-- Decorative label cutout 2 (END-top area) -->
-  <img data-placeholder="home-hero-cutout-2" data-context="Premium spirits label cutout PNG style for Liquor Spot: sophisticated gin or vodka label with minimalist modern design, metallic silver accents, clean sans-serif typography, subtle embossing effects, isolated on transparent background, contemporary luxury alcohol branding, professional product photography" width="240" height="320" src="/assets/site-home-hero-cutout-2.webp" alt="תווית בקבוק מודרנית" class="home-hero-cutout home-hero-cutout-2">
-  
-  <!-- Torn paper edge divider at bottom -->
-  <div class="home-hero-divider-wrapper">
+  <div class="home-Hero-section__divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,80 L0,42 Q30,38 60,44 T120,40 Q150,45 180,38 T240,42 Q270,39 300,45 T360,40 Q390,44 420,38 T480,43 Q510,40 540,46 T600,41 Q630,45 660,39 T720,44 Q750,41 780,47 T840,42 Q870,46 900,40 T960,45 Q990,42 1020,48 T1080,43 Q1110,47 1140,41 T1200,46 L1200,80 Z" fill="#EDE7DD"></path>
+      <path d="M0,80 L0,42 Q30,38 60,44 T120,40 Q150,45 180,38 T240,43 Q270,39 300,45 T360,41 Q390,46 420,40 T480,44 Q510,38 540,43 T600,39 Q630,44 660,40 T720,45 Q750,41 780,46 T840,42 Q870,47 900,41 T960,45 Q990,40 1020,46 T1080,42 Q1110,47 1140,41 T1200,45 L1200,80 Z" fill="var(--bg-light)"></path>
     </svg>
   </div>
 </section>
@@ -856,85 +2127,58 @@
     </section>
   
 
-<section class="home-showcase-section" data-layout-spec="Home-showcase">
-  <div class="showcase-container">
-    <div class="showcase-header">
-      <div class="showcase-intro">
-        <h2>תוויות נבחרות העונה</h2>
-        <p>אוסף מיוחד של משקאות פרימיום שנבחרו בקפידה עבור המדפים שלנו. כל בקבוק מספר סיפור ייחודי של מלאכה, מסורת וטעם מעולה.</p>
-      </div>
-      <div class="showcase-callout">
-        <h3>מבחר חורף מיוחד</h3>
-        <p>גלו את הבחירות החמות שלנו לעונה - ויסקי עשיר, רום מתובל וקוניאק יוקרתי.</p>
-      </div>
+<section class="home-reviews-section" data-layout-spec="Home-reviews">
+  <div class="home-reviews-container">
+    <div class="home-reviews-intro">
+      <h2>מה אומרים המבקרים שלנו</h2>
+      <p>לקוחותינו מעריכים את המגוון הרחב, הייעוץ המקצועי והאווירה הנעימה בחנות. כל בקבוק מלווה בסיפור, וכל ביקור הופך לחוויה מיוחדת.</p>
     </div>
-    
-    <div class="showcase-grid">
-      <div class="showcase-tile showcase-tile-wide">
-        <img data-placeholder="home-showcase-image-1" data-context="Premium whiskey bottle with elegant label design on warm wooden surface with soft studio lighting, professional product photography for liquor store showcase" width="600" height="400" src="/assets/site-home-showcase-image-1.webp" alt="בקבוק ויסקי פרימיום עם תווית אלגנטית">
-        <p>ויסקי סינגל מאלט בן 18 שנה</p>
-      </div>
-      <div class="showcase-tile">
-        <img data-placeholder="home-showcase-image-2" data-context="Craft gin bottle with botanical label featuring juniper and herbs, elegant glass bottle on textured paper background, artisanal spirits photography" width="400" height="400" src="/assets/site-home-showcase-image-2.webp" alt="בקבוק ג׳ין בוטאני מעוצב">
-        <p>ג'ין בוטאני בעבודת יד</p>
-      </div>
-      <div class="showcase-tile">
-        <img data-placeholder="home-showcase-image-3" data-context="Aged rum bottle with vintage label design, dark glass bottle with gold accents on warm paper texture, premium spirits product shot" width="400" height="400" src="/assets/site-home-showcase-image-3.webp" alt="בקבוק רום מיושן עם תווית וינטג׳">
-        <p>רום קריבי מיושן 12 שנה</p>
-      </div>
-      <div class="showcase-tile">
-        <img data-placeholder="home-showcase-image-4" data-context="Luxury cognac bottle with ornate label and gold details, sophisticated brandy presentation on cream paper background, high-end spirits photography" width="400" height="400" src="/assets/site-home-showcase-image-4.webp" alt="בקבוק קוניאק יוקרתי">
-        <p>קוניאק VSOP עם פרופיל עשיר</p>
-      </div>
-      <div class="showcase-tile">
-        <img data-placeholder="home-showcase-image-5" data-context="Premium vodka bottle with minimalist modern label design, crystal clear glass on textured paper, clean spirits product photography" width="400" height="400" src="/assets/site-home-showcase-image-5.webp" alt="בקבוק וודקה פרימיום מינימליסטי">
-        <p>וודקה פרימיום מזוקקת 5 פעמים</p>
-      </div>
-      <div class="showcase-tile">
-        <img data-placeholder="home-showcase-image-6" data-context="Artisanal tequila bottle with traditional Mexican label art, aged spirit in elegant bottle on warm paper texture, craft spirits showcase" width="400" height="400" src="/assets/site-home-showcase-image-6.webp" alt="בקבוק טקילה אומנותי">
-        <p>טקילה רפוסדו בעבודת יד</p>
-      </div>
-    </div>
-  </div>
-  
-  <div class="showcase-transition"></div>
-</section>
 
-<section class="home-stories-section" data-layout-spec="Home-stories">
-  <div class="home-stories-container">
-    <div class="home-stories-content">
-      <h2 class="home-stories-heading">סיפורי משקאות</h2>
-      <p class="home-stories-paragraph">כל בקבוק מספר סיפור ייחודי של מסורת, אומנות ותשוקה. אנחנו מאמינים שמאחורי כל תווית מסתתר עולם שלם של מקצועיות, תהליכי ייצור מדויקים ומורשת שעוברת מדור לדור.</p>
-      <p class="home-stories-paragraph">מהיקבים המשפחתיים הקטנים ועד למזקקות הבוטיק המפורסמות, אנו בוחרים בקפידה רבה כל מוצר שמגיע למדפים שלנו. הבקבוקים שלנו הם לא רק משקאות - הם חוויות שאתם יוצרים, רגעים שאתם זוכרים.</p>
-      <blockquote class="home-stories-quote">
-        <h3 class="home-stories-quote-text">"אנחנו לא אוספים בקבוקים, אנחנו אוספים רגעים ששווים לזכור"</h3>
-      </blockquote>
-      <a href="#about" class="home-stories-cta">גלו את הסיפור שלנו</a>
-    </div>
-    <div class="home-stories-imagery">
-      <div class="home-stories-main-image-wrapper">
-        <img data-placeholder="home-stories-image-1" data-context="Close-up macro photography of an elegant premium liquor bottle label with intricate typography and embossed details, showing the craftsmanship of bottle design. Rich textures, gold foil accents, vintage-style typography. Archival-modern aesthetic with slight filmic contrast, professional product photography for a premium alcohol retail business." width="500" height="750" src="/assets/site-home-stories-image-1.webp" alt="תווית בקבוק משקאות פרמיום עם פרטים מעוצבים" class="home-stories-main-image">
-        <div class="home-stories-secondary-image-wrapper">
-          <img data-placeholder="home-stories-image-2" data-context="Artistic flat-lay composition of vintage cocktail glasses, bar tools, and whiskey bottles on a dark textured surface. Warm lighting, subtle grain texture, archival-modern aesthetic with filmic contrast. Professional beverage photography for premium alcohol retail." width="320" height="240" src="/assets/site-home-stories-image-2.webp" alt="קומפוזיציה אומנותית של כלי בר ובקבוקי משקאות" class="home-stories-secondary-image">
-        </div>
-      </div>
+    <div class="home-reviews-grid">
+      <article class="home-reviews-card">
+        <h3>"מבחר יוצא דופן של וויסקי איכותי"</h3>
+        <p>דניאל כהן, חובב וויסקי מתל אביב</p>
+      </article>
+
+      <article class="home-reviews-card">
+        <h3>"הצוות מכיר כל בקבוק ויודע להמליץ בדיוק"</h3>
+        <p>מיכל לוי, אספנית יינות מירושלים</p>
+      </article>
+
+      <article class="home-reviews-card">
+        <h3>"המקום המושלם למצוא משקאות נדירים"</h3>
+        <p>יוסי אברהם, חוגג אירועים מיוחדים</p>
+      </article>
     </div>
   </div>
-  <div class="home-stories-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+
+  <div class="home-reviews-texture-strip" aria-hidden="true"></div>
+
+  <div class="home-reviews-divider-wrapper">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <pattern id="halftone-dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-          <circle cx="10" cy="10" r="2" fill="var(--bg-light)" opacity="0.8"></circle>
-        </pattern>
-        <linearGradient id="dot-fade" x1="0%" y1="0%" x2="0%" y2="100%">
-          <stop offset="0%" style="stop-color:var(--bg-dark);stop-opacity:1"></stop>
-          <stop offset="50%" style="stop-color:var(--bg-dark);stop-opacity:0.6"></stop>
-          <stop offset="100%" style="stop-color:var(--bg-light);stop-"></stop>
+        <linearGradient id="ribbonGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" style="stop-color:#0B1B2B;stop-opacity:1"></stop>
+          <stop offset="100%" style="stop-color:#1D3247;stop-opacity:1"></stop>
         </linearGradient>
       </defs>
-      <rect x="0" y="0" width="1200" height="80" fill="url(#dot-fade)"></rect>
-      <rect x="0" y="40" width="1200" height="40" fill="url(#halftone-dots)"></rect>
+      <path d="M0,120 L0,60 L1200,0 L1200,120 Z" fill="url(#ribbonGradient)"></path>
+      <path d="M0,60 L1200,0" stroke="#FF4D6D" stroke-width="2" fill="none"></path>
     </svg>
+  </div>
+</section>
+
+<section class="home-cta-section" data-layout-spec="Home-cta">
+  <div class="home-cta-section__background-image">
+    <img data-context="Extreme close-up macro photography of foil stamping or glass embossing on a premium liquor bottle label, showing metallic gold or silver texture details with subtle light reflections, dark moody background, high-end alcohol retail aesthetic" width="1920" height="1080" src="/assets/liquor-spot-section-Home-cta-home-cta-bg-texture.webp" alt="טקסטורת פויל יוקרתית" data-zappy-editable-image="true">
+  </div>
+  <div class="home-cta-section__overlay"></div>
+  <div class="home-cta-section__container">
+    <div class="home-cta-section__content">
+      <h2 class="home-cta-section__title">מוכנים לגלות את המשקה האהוב הבא שלכם?</h2>
+      <p class="home-cta-section__description">הצוות שלנו כאן כדי להמליץ לכם על משקאות אלכוהוליים מובחרים ולעדכן אתכם על הפריטים המיוחדים שהגיעו לאחרונה למלאי. בואו לגלות את האוסף שלנו ולמצוא בדיוק מה שאתם מחפשים.</p>
+      <a href="/contact" class="home-cta-section__cta-button">צרו קשר עכשיו</a>
+    </div>
   </div>
 </section>
 
@@ -997,7 +2241,7 @@
   <div class="footer-container">
     <div class="footer-grid">
       <div class="footer-section footer-about">
-        <img src="/assets/business-logo.webp" alt="Liquor Spot" class="logo" />
+        <img src="/assets/business-logo.webp" alt="Liquor Spot" class="logo">
         <p class="footer-description">החנות המובילה למשקאות אלכוהוליים איכותיים. מבחר עשיר של יינות, וויסקי, בירות ועוד.</p>
         <div class="social-links">
           <a href="[facebook_handle]" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
@@ -1167,6 +2411,76 @@
           observer.observe(menu, { attributes: true, attributeFilter: ['class', 'style'] });
         });
       }, 500);
+    })();
+    </script>
+
+    <script id="zappy-mobile-lang-menu-script">
+    (function() {
+      function initMobileLangMenu() {
+        if (window.innerWidth > 768) {
+          var existingMenu = document.querySelector('.mobile-lang-menu');
+          if (existingMenu) existingMenu.remove();
+          return;
+        }
+        if (document.querySelector('.mobile-lang-menu')) return;
+        var switcher = document.querySelector('.lang-switcher');
+        if (!switcher) return;
+        var dropdown = switcher.querySelector('.lang-switcher-dropdown');
+        if (!dropdown) return;
+        var options = dropdown.querySelectorAll('.lang-option');
+        if (options.length === 0) return;
+        var navMenu = document.getElementById('navMenu') || document.querySelector('.nav-menu') || document.querySelector('nav ul');
+        if (!navMenu) return;
+        var currentLang = document.documentElement.lang || 'en';
+        var langConfigs = {
+          he: {name:'עברית',flag:'https://api.iconify.design/circle-flags/il.svg'},
+          en: {name:'English',flag:'https://api.iconify.design/circle-flags/us.svg'},
+          ar: {name:'العربية',flag:'https://api.iconify.design/circle-flags/sa.svg'},
+          fr: {name:'Français',flag:'https://api.iconify.design/circle-flags/fr.svg'},
+          es: {name:'Español',flag:'https://api.iconify.design/circle-flags/es.svg'},
+          de: {name:'Deutsch',flag:'https://api.iconify.design/circle-flags/de.svg'},
+          ru: {name:'Русский',flag:'https://api.iconify.design/circle-flags/ru.svg'},
+          zh: {name:'中文',flag:'https://api.iconify.design/circle-flags/cn.svg'},
+          ja: {name:'日本語',flag:'https://api.iconify.design/circle-flags/jp.svg'},
+          pt: {name:'Português',flag:'https://api.iconify.design/circle-flags/br.svg'},
+          it: {name:'Italiano',flag:'https://api.iconify.design/circle-flags/it.svg'},
+          ko: {name:'한국어',flag:'https://api.iconify.design/circle-flags/kr.svg'}
+        };
+        var container = document.createElement('div');
+        container.className = 'mobile-lang-menu';
+        var currentConfig = langConfigs[currentLang] || {name:currentLang,flag:''};
+        var toggleBtn = document.createElement('button');
+        toggleBtn.className = 'mobile-lang-toggle';
+        toggleBtn.type = 'button';
+        var currentFlagHtml = currentConfig.flag ? '<img src="' + currentConfig.flag + '" width="20" height="20" alt="" style="border-radius:50%;margin-right:8px;margin-left:8px;">' : '';
+        toggleBtn.innerHTML = currentFlagHtml + currentConfig.name;
+        container.appendChild(toggleBtn);
+        var optionsDiv = document.createElement('div');
+        optionsDiv.className = 'mobile-lang-options';
+        var currentLink = document.createElement('a');
+        currentLink.className = 'mobile-lang-option active';
+        currentLink.href = '#';
+        currentLink.innerHTML = currentFlagHtml + currentConfig.name;
+        optionsDiv.appendChild(currentLink);
+        options.forEach(function(opt) {
+          var link = document.createElement('a');
+          link.className = 'mobile-lang-option';
+          link.href = opt.getAttribute('href');
+          link.innerHTML = opt.innerHTML;
+          optionsDiv.appendChild(link);
+        });
+        container.appendChild(optionsDiv);
+        navMenu.appendChild(container);
+        toggleBtn.addEventListener('click', function(e) {
+          e.preventDefault();
+          e.stopPropagation();
+          toggleBtn.classList.toggle('expanded');
+          optionsDiv.classList.toggle('expanded');
+        });
+      }
+      if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', initMobileLangMenu); }
+      else { initMobileLangMenu(); }
+      window.addEventListener('resize', function() { clearTimeout(window._mlrt); window._mlrt = setTimeout(initMobileLangMenu, 250); });
     })();
     </script>
 </body></html>

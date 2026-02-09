@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://liquor-spot-16fdd83c.zappy5.app/sitemap.xml
+Sitemap: https://example.com/sitemap.xml
