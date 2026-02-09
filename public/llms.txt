@@ -1,75 +1,85 @@
-# Business — Generative Engine Optimization Map
+# Liquor Spot — Generative Engine Optimization Map
+
+> A קמעונאות משקאות אלכוהוליים business.
 
 ---
 
 ## Pages
 
 ### Home
-https://example.com
+https://liquor-spot.zappy5.app
 
 ### About
-https://example.com/about
+https://liquor-spot.zappy5.app/about
 
 ### Selection
-https://example.com/selection
+https://liquor-spot.zappy5.app/selection
 
 ### Contact
-https://example.com/contact
+https://liquor-spot.zappy5.app/contact
 
 ### Products
-https://example.com/products
+https://liquor-spot.zappy5.app/products
 המוצרים שלנו - Liquor Spot
 
 ### Cart
-https://example.com/cart
+https://liquor-spot.zappy5.app/cart
 עגלת הקניות שלך
 
 ### Checkout
-https://example.com/checkout
+https://liquor-spot.zappy5.app/checkout
 תשלום
 
 ### Login
-https://example.com/login
+https://liquor-spot.zappy5.app/login
 התחברות לקוחות
 
 ### Account
-https://example.com/account
+https://liquor-spot.zappy5.app/account
 החשבון שלי
 
 ### Order Success
-https://example.com/order-success
+https://liquor-spot.zappy5.app/order-success
 תודה על ההזמנה
 
 ### Product Detail
-https://example.com/product/:slug
+https://liquor-spot.zappy5.app/product/:slug
 פרטי המוצר - Liquor Spot
 
 ### Category
-https://example.com/category/:slug
+https://liquor-spot.zappy5.app/category/:slug
 מוצרים - Liquor Spot
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://liquor-spot.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://liquor-spot.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://liquor-spot.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About Liquor Spot
+Liquor Spot is a business in the קמעונאות משקאות אלכוהוליים industry.
+
+## Target Audience
+צרכנים שרוצים לקנות משקאות אלכוהוליים
+
+## Industry
+קמעונאות משקאות אלכוהוליים
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+- **Sitemap**: https://liquor-spot.zappy5.app/sitemap.xml
+- **Robots.txt**: https://liquor-spot.zappy5.app/robots.txt
