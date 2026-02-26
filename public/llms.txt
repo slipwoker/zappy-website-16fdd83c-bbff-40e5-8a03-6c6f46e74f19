@@ -1,6 +1,4 @@
-# Liquor Spot — Generative Engine Optimization Map
-
-> A קמעונאות משקאות אלכוהוליים business.
+# Business — Generative Engine Optimization Map
 
 ---
 
@@ -68,15 +66,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About Liquor Spot
-Liquor Spot is a business in the קמעונאות משקאות אלכוהוליים industry.
-
-## Target Audience
-צרכנים שרוצים לקנות משקאות אלכוהוליים
-
-## Industry
-קמעונאות משקאות אלכוהוליים
-
+## About Business
 ---
 
 # Additional Resources
